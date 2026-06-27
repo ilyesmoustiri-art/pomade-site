@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Datélys by I&C | Crème Anti-Âge Naturelle",
-  description: "Crème anti-âge naturelle à base de noyaux de dattes. Une beauté naturelle inspirée de la nature avec des ingrédients soigneusement sélectionnés.",
-  keywords: ["Datélys", "crème anti-âge", "noyaux de dattes", "beauté naturelle", "I&C"],
+  description: "Crème anti-âge naturelle à base de noyaux de dattes. Une beauté naturelle inspirée de la nature. Formulée avec de l'huile et de la poudre de noyaux de dattes.",
+  keywords: ["Datélys", "crème anti-âge", "noyaux de dattes", "beauté naturelle", "I&C", "cosmétiques naturels"],
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" dir="ltr" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
